@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background: url('andrew-kliatskyi-jpu0gMXT9to-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1, p, .letter-box, .info{
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+h1{
+  text-align: center;
+  border-bottom: 2px solid lightgray;
+  border-radius: 20px;
+  padding-bottom: 5px;
+}
+
+p{
+  text-align: center;
+}
+
+.info{
+  text-align: left;
+}
+
+#game-board{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.letter-box{
+  border: 2px solid whitesmoke;
+  border-radius: 6px;
+  margin: 2px;
+  font-size: 2rem;
+  font-weight: 700;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase
+}
+
+.filled-box{
+  border: 2px solid black;
+}
+
+.letter-row{
+  display: flex;
+}
+
+#keyboard-cont{
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#keyboard-cont div{
+  display: flex;
+}
+
+.second-row{
+  margin: 0.5rem 0;
+}
+
+.keyboard-button{
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  margin: 0 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+
+.fadeInText{
+  animation: fadeIn 3s;
+}
+
+.fadeInImg { 
+  animation: fadeIn 15s;
+}
+
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
