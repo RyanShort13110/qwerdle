@@ -4,7 +4,7 @@
 <br />
 <div align="center">
     <a href="https://qwerdle.netlify.app">
-    <img src="qwerdleSrcnshot.PNG" alt="Logo" width="300" height="450">
+    <img src="qwerdlePlayed.PNG" alt="Logo" width="300" height="450">
     </a>
   <h3 align="center">Qwerdle</h3>
 
