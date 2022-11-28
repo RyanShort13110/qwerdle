@@ -16,7 +16,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<p>I have been a fan of Wordle for a while now, and I wanted to re-create the game using html, css, and js. I worked though this project as a way to practice the practical application of javascript.</p>
+<p>I have been a fan of Wordle for a while now, and I wanted to re-create the game using html, css, and js. I worked though this project as a way to practice the practical application of javascript functionality.</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
